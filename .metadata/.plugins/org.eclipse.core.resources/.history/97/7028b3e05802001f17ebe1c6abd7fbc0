@@ -1,0 +1,26 @@
+package basepackage;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import pages.GoogleHomePage;
+
+public class BaseClassTest {
+
+
+
+	@BeforeTest
+	public void setup() {
+
+		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.google.com/");
+		
+	}
+
+	@AfterTest
+	public void tearDown() {
+		driver.close();
+	}
+}

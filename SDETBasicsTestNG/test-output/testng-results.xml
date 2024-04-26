@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T17:39:10 IST" name="Default suite" finished-at="2024-04-25T17:39:10 IST" duration-ms="44">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T17:39:10 IST" name="Default test" finished-at="2024-04-25T17:39:10 IST" duration-ms="44">
+      <class name="sdettestngassignment.CalculatorTest">
+        <test-method signature="testAddition()[pri:1, instance:sdettestngassignment.CalculatorTest@242b836]" started-at="2024-04-25T17:39:10 IST" name="testAddition" finished-at="2024-04-25T17:39:10 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testSubtraction()[pri:2, instance:sdettestngassignment.CalculatorTest@242b836]" started-at="2024-04-25T17:39:10 IST" name="testSubtraction" finished-at="2024-04-25T17:39:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testMultiplication()[pri:3, instance:sdettestngassignment.CalculatorTest@242b836]" started-at="2024-04-25T17:39:10 IST" name="testMultiplication" finished-at="2024-04-25T17:39:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testDivision()[pri:4, instance:sdettestngassignment.CalculatorTest@242b836]" started-at="2024-04-25T17:39:10 IST" name="testDivision" finished-at="2024-04-25T17:39:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+      </class> <!-- sdettestngassignment.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

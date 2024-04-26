@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    <car>
+        <name>Toyota Camry</name>
+        <owner>John Doe</owner>
+        <modelNumber>TC1234</modelNumber>
+        <launchYear>2019</launchYear>
+        <price>25000</price>
+    </car>
+    <car>
+        <name>Honda Civic</name>
+        <owner>Jane Smith</owner>
+        <modelNumber>HC5678</modelNumber>
+        <launchYear>2020</launchYear>
+        <price>22000</price>
+    </car>
+</cars>

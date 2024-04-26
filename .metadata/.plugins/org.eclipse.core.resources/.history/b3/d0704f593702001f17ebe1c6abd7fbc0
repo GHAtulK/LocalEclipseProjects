@@ -1,0 +1,15 @@
+package pagefactorywebelements;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class GoogleHomePage {
+
+	WebDriver driver;
+
+	@FindBy(xpath = "//textarea[@class=\"gLFyf\"]")
+	public WebElement textBox;
+
+	PageFactory.init();
+
+}

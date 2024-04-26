@@ -1,0 +1,14 @@
+<suite name="Annotation Testing">
+	<test name="Before and After Test Check">
+		<classes>
+			<class name="practicepackage.AnnotationsTestClass"></class>	
+		</classes>
+	</test>
+	<test name="After Test annotations completed">
+	<class name="practicepackage.SeleniumPracticeTest2">
+				<methods>
+					<include name="testChromeDriver"></include>	
+				</methods>
+			</class>>
+		</test>
+</suite>

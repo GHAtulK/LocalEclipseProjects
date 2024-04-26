@@ -1,0 +1,10 @@
+<suite name="Annotation Testing">
+	<test name="Before and After Test Check">
+		<classes>
+			<class name="practicepackage.AnnotationsTestClass"></class>	
+		</classes>
+	</test>
+	<test name="General Testing">
+		<class name="practicepackage.SeleniumPracticeTest2"></class>>
+	</test>
+</suite>

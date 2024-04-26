@@ -1,0 +1,19 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+
+import pagefactorywebelements.GoogleHomePageElements;
+
+public class GoogleHomePage {
+	WebDriver driver;
+	GoogleHomePageElements gglHomePageElement;
+
+	public GoogleHomePage(WebDriver driver) {
+		this.driver = driver;
+		gglHomePageElement = new GoogleHomePageElements(driver);
+	}
+
+	public void enterTextMethod() {
+		gglHomePageElement.gglHomePageEle.sendKeys("TestNG");
+	}
+}

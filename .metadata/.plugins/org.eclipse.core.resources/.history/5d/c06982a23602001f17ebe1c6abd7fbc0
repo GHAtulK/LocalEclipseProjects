@@ -1,0 +1,7 @@
+package pagefactorywebelements;
+
+public class GoogleHomePage {
+
+	@FindBy(xpath="//textarea[@class=\"gLFyf\"]"" WebElement textBox)
+
+}

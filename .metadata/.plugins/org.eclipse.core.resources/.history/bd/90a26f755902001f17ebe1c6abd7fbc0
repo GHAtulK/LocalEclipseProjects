@@ -1,0 +1,12 @@
+package library;
+
+import org.openqa.selenium.WebDriver;
+
+public class AppLib {
+	WebDriver driver;
+	private PageLib page;
+
+	public AppLib(WebDriver driver) {
+this.driver=driver;
+	}
+}

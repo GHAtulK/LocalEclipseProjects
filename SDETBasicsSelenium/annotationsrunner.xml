@@ -1,0 +1,12 @@
+<suite name="Annotation Testing" parallel="classes">
+	<test name="Before and After Test Check">
+		<classes>
+			<class name="practicepackage.AnnotationsTestClass"></class>	
+		</classes>
+	</test>
+	<test name="General Testing">
+	<classes>
+		<class name="practicepackage.SeleniumPracticeTest2"></class>>
+	</classes>	
+	</test>
+</suite>

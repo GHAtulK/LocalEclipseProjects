@@ -1,0 +1,9 @@
+package practicepackage;
+
+import org.testng.annotations.Test;
+
+public class SampleTestNGClass {
+  @Test
+  public void f() {
+  }
+}

@@ -1,0 +1,40 @@
+package practicepackage;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class AnnotationsTestClass {
+
+	@BeforeClass
+	public void beforeClassSetup() {
+		System.out.println("Before Class Executed");
+	}
+
+	@AfterClass
+	public void afterClassSetup() {
+		System.out.println("Before Class Executed");
+	}
+
+	@BeforeMethod
+	public void beforeMethodSetup() {
+		System.out.println("Before Class Executed");
+	}
+
+	@AfterMethod
+	public void afterMethodSetup() {
+		System.out.println("Before Class Executed");
+	}
+
+	@Test
+	public void test1() {
+		System.out.println("Before Class Executed");
+	}
+
+	@Test
+	public void test2() {
+		System.out.println("Before Class Executed");
+	}
+}

@@ -1,0 +1,15 @@
+package sdetseleniumassignment;
+
+import java.util.Scanner;
+
+import org.testng.annotations.Test;
+
+public class Question1 {
+
+	@Test
+	public void questionNo1(int i) {
+
+		Scanner sc = new Scanner();
+
+	}
+}

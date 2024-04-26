@@ -1,0 +1,17 @@
+<suite name="Annotation Testing">
+	<test name="Before and After Test Check">
+		<classes>
+			<class name="practicepackage.AnnotationsTestClass">
+				<methods>
+					<exclude name="testChromeDriver"></exclude>
+					<include name="softAsertsExample"></include>
+				</methods>
+			</class>	
+			<class name="practicepackage.SeleniumPracticeTest2">
+				<methods>
+					<include name="testChromeDriver"></include>	
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

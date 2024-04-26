@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SDETTraining
+Bundle-SymbolicName: SDETTraining
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: .,
+ com.sdet.basic,
+ com.sdet.oops,
+ com.sdet.primitivedatatypes,
+ javaassigment.problemstatement2,
+ javaassignment.problemstatement1,
+ javaassignment.problemstatement3,
+ javaassignment.problemstatement4,
+ javaassignment.problemstatement5,
+ sdet.apiautomationassessment

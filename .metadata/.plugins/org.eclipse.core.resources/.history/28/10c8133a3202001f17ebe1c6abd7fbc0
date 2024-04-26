@@ -1,0 +1,7 @@
+<suite name="Annotation Testing">
+	<test name="Before and After Test Check">
+		<classes>
+			<class name="practicepackage.AnnotationsTestClass"></class>	
+		</classes>
+	</test>
+</suite>

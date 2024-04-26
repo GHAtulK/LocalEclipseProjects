@@ -1,0 +1,14 @@
+<suite name="Selenium and Test NG Basics Testing">
+	<test name="Sanity Testing v1.0">
+		<classes>
+			<class name="practicepackage.SeleniumPracticeTest1">
+				<methods>
+					<include name="testChromeDriver"></include>	
+				</methods>
+			</class>	
+			
+			
+			<class name="practicepackage.SeleniumPracticeTest2"/>
+		</classes>
+	</test>
+</suite>

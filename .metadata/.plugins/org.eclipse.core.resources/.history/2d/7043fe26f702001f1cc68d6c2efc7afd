@@ -1,0 +1,28 @@
+package sdetseleniumassignment;
+
+import java.util.Scanner;
+
+import org.testng.annotations.Test;
+
+public class Question1 {
+
+	@Test
+	public void questionNo1() {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number of entries (N): ");
+		int numberOfEntries = sc.nextInt();
+		System.out.println("Number of entries: " + numberOfEntries);
+		sc.close();
+	}
+
+	@Test
+	public void questionNo2() {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number of entries (N): ");
+		int numberOfEntries = sc.nextInt();
+		System.out.println("Number of entries: " + numberOfEntries);
+		sc.close();
+	}
+}

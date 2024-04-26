@@ -1,0 +1,11 @@
+package sdetseleniumassignment;
+
+import org.testng.annotations.Test;
+
+public class Question1 {
+
+	@Test
+	public void questionNo1(int i) {
+
+	}
+}
